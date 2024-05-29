@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    line-height: 2;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.intro-image {
+    background-image: url('../img/wax3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__text a.btn {
+    border: 2px solid #fff;
+    color: #fff;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 2px;
+    transition: margin-right 1s;    
+}
+
+.intro-image__text a.btn:hover {
+    background-color:transparent;
+    box-shadow: 0 0 200px 5px rgba(255, 255, 255, 0.4);
+    transition: all 0.5s ease-in-out;
+    text-transform: uppercase;
+}
+
+.intro-text {
+    background-color: #161616;
+    padding-top: 30px;
+    padding-bottom: 120px;
+    color: #9a9a9a;
+    text-align: center;
+
+}
+
+.packaging-image {
+    background-image: url('../img/wax2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -5rem;
+    clip-path: polygon(0 0, 100% 10%, 100% 90%, 0% 100%);
+}
+
+.packaging-image__text a.btn {
+    background-color:transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 2px;
+    transition: margin-right 1s;
+}
+
+.packaging-image__text a.btn:hover {
+    background-color:transparent;
+    box-shadow: 0 0 150px 30px rgba(0, 0, 0, 0.7);
+    transition: all 0.5s ease-in-out;
+    text-transform: uppercase;
+}
+
+.packaging-text {
+    background-color: #161616;
+    padding-top: 100px;
+    padding-bottom: 170px;
+    color: #9a9a9a;
+    text-align: center;
+}
+
+.tutorials-image {
+    background-image: url('../img/wax1.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    height: 65vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -10rem;
+    clip-path: polygon(0 0, 100% 15%, 100% 80%, 0% 100%);
+}
+
+.tutorials-image__text a.btn {
+    background-color: #00000064;
+    border: 2px solid #fff;
+    color: #fff;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 2px;
+    transition: margin-right 1s;
+}
+
+.tutorials-image__text a.btn:hover {
+    background-color: #00000096;
+    box-shadow: 0 0 150px 30px rgba(0, 0, 0, 0.7);
+    transition: all 0.5s ease-in-out;
+    text-transform: uppercase;
+}
+
+.footer {
+    background-color: #161616;
+    color: #fff;
+    padding: 30px;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    color: rgb(254, 254, 254);
+    transform: scale(1.1);
+    
+}
+
+.footer ul li {
+    display: inline-block;
+    margin:1rem    
+    
+}
+
+.footer ul li a {
+    color: rgba(171, 171, 171, 0.747);
+}
+.footer ul li:hover {
+    color: rgb(254, 254, 254);
+    transform: scale(1.1);
+}
+
